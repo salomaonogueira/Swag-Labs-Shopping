@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SWAG-2] Como usuário desejo acessar a página de login na loja virtual a fim de visualizar opções de login. Cadastro e redefinição de senha.</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://salomao-projects.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SWAG-2]&nbsp;<a href="https://salomao-projects.atlassian.net/browse/SWAG-2">Como usuário desejo acessar a página de login na loja virtual a fim de visualizar opções de login. Cadastro e redefinição de senha.</a>
+            <span class="subText">
+               Criado: 13/jul/24                   &nbsp;Atualizado(a): 13/jul/24
+
+                                                    &nbsp;Resolvido: 13/jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Concluído</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projeto:</b></td>
+        <td width="80%"><a href="https://salomao-projects.atlassian.net/secure/BrowseProject.jspa?id=10000">Swag Labs Shopping</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versões afetadas:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versões corrigidas:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Tarefa
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridade:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Relator:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="6248ba074fe01d006ba86b3a"
+                id="word_reporter_6248ba074fe01d006ba86b3a"
+                href="https://salomao-projects.atlassian.net/secure/ViewProfile.jspa?accountId=6248ba074fe01d006ba86b3a">
+                    Salomão David
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsável:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="6248ba074fe01d006ba86b3a"
+                id="word_assignee_6248ba074fe01d006ba86b3a"
+                href="https://salomao-projects.atlassian.net/secure/ViewProfile.jspa?accountId=6248ba074fe01d006ba86b3a">
+                    Salomão David
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolução:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Itens concluídos
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Categorias:</b>
+        </td>
+        <td id="labels-10001-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Nenhum
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ da estimativa de trabalho restante:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconhecido
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimativa de trabalho restante:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconhecido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ de Tempo Gasto:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconhecido
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tempo gasto:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconhecido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ da Estimativa Original:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconhecido
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimativa original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconhecido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Links de itens:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://salomao-projects.atlassian.net/browse/SWAG-8">
+                     <strike>SWAG-8</strike>                 </a>
+            </td>
+            <td>
+                Cliente sem cadastro deseja criar uma...
+            </td>
+            <td>
+                Concluído
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Subtarefas:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Chave</b><br/>
+                </td>
+                <td>
+                    <b>Resumo</b><br/>
+                </td>
+                <td>
+                    <b>Tipo</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Responsável</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://salomao-projects.atlassian.net/browse/SWAG-7">SWAG-7</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://salomao-projects.atlassian.net/browse/SWAG-7">Execução de testes manuais</a>
+                    </td>
+                    <td>
+                        Subtask
+                    </td>
+                    <td>
+                        Tarefas pendentes
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10001-value" class="value" bgcolor="#ffffff" width="80%">      0|i00007:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10001-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descrição</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ol>
+	<li>Cenário: Cliente sem cadastro deseja criar uma conta</li>
+</ol>
+
+
+<p>Dado que o cliente esteja na tela de login</p>
+
+<p>E não esteja cadastrado no sistema</p>
+
+<p>Quando clicar em 'criar conta'</p>
+
+<p>Então será redirecionado para uma tela de criação de nova conta.</p>
+
+<ol>
+	<li>Cenario: Cliente sem cadastro tenta fazer login</li>
+</ol>
+
+
+<p>Dado que o cliente esteja na tela de login</p>
+
+<p>E adicione um usernome nao cadastrado</p>
+
+<p>Quando clicar em 'criar conta'</p>
+
+<p>Então uma mensagem surgirá avisando que a conta não existe</p>
+
+<ol>
+	<li>Cenário: Cliente com cadastro informa dados incorretos de acesso</li>
+</ol>
+
+
+<p>Dado que o cliente esteja na tela de login</p>
+
+<p>E adicione um username correto</p>
+
+<p>Mas escreva uma senha incorreta</p>
+
+<p>Quando clicar em 'Login'</p>
+
+<p>Então uma mensagem surgirá avisando que o usuário e senha está incorreto</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Gerado em Sun Jul 14 01:31:05 UTC 2024 por Salomão David usando JIRA 1001.0.0-SNAPSHOT#100258-rev:a8697fa7c78f0e06e31be511caa368ff55a76251.
+
+</body>
+</html>

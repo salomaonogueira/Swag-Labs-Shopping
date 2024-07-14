@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>KAN</projectKey>
+    <exportDate>2024-07-14 00:26:21 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="169528197" key="KAN-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Salomão David</createdBy>
+            <createdOn>2024-07-13 19:16:20 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar uma conta]]></name>
+            <objective><![CDATA[Cadastrar conta]]></objective>
+            <owner>6248ba074fe01d006ba86b3a</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de login
+
+And não esteja cadastrado no sistema
+
+When clicar em 'criar conta'
+
+Then será redirecionado para uma tela de criação de nova conta.]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="169528203" key="KAN-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Salomão David</createdBy>
+            <createdOn>2024-07-13 19:23:31 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro tenta fazer login]]></name>
+            <objective><![CDATA[Informar que o usu&aacute;rio n&atilde;o existe]]></objective>
+            <owner>6248ba074fe01d006ba86b3a</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[172.17.25.54]]></defaultValue>
+                    <name><![CDATA[Servidor QA]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="plain">
+                <details><![CDATA[<p>Given que o cliente esteja na tela de login</p><p>And adicione um username incorreto</p><p>Bat escreva uma senha incorreta</p><p>When clicar em 'login'</p><p>Then uma mensagem surgir&aacute; avisando que n&atilde;o existem o usu&aacute;rio e a senha.</p>]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="169528294" key="KAN-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Salomão David</createdBy>
+            <createdOn>2024-07-13 19:43:09 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente com cadastro informa dados incorretos de acesso]]></name>
+            <objective><![CDATA[Informar que com os dados n&atilde;o pode acessar]]></objective>
+            <owner>6248ba074fe01d006ba86b3a</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Adicionar usu&aacute;rio correto e a senha incorreta, clicar em login.]]></description>
+                        <expectedResult><![CDATA[Ent&atilde;o uma mensagem surgir&aacute; avisando que o usu&aacute;rio e senha est&aacute; incorreto ]]></expectedResult>
+                        <testData><![CDATA[username: standard_user &nbsp; senha: secret_]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="169529581" key="KAN-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Salomão David</createdBy>
+            <createdOn>2024-07-13 23:14:06 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Adicionando produtos selecionados no carrinho de compras]]></name>
+            <objective><![CDATA[Adicionar produtos no carrinho de compra]]></objective>
+            <owner>6248ba074fe01d006ba86b3a</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Selecionar produto]]></description>
+                        <expectedResult><![CDATA[Os produtos selecionados v&aacute; para o carrinho]]></expectedResult>
+                        <testData><![CDATA[<div>Produtos selecionados&nbsp;<a href="https://www.saucedemo.com/inventory.html#">Sauce Labs Backpack</a> e&nbsp;</div><a href="https://www.saucedemo.com/inventory.html#"><div>Sauce Labs Bolt T-Shirt</div></a>&nbsp;]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="169529661" key="KAN-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Salomão David</createdBy>
+            <createdOn>2024-07-13 23:44:30 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Carrinho de compra]]></name>
+            <objective><![CDATA[Cenario: Carrinho de compras<br id="isPasted"><br>Dado que o cliente esteja na tela do carrinho<br><br>E veja os produtos selecionados<br><br>Quando clicar em 'checkout'<br><br>Ent&atilde;o ser&aacute; direcionado para tela de checkout: suas informa&ccedil;&otilde;es<br><br><br>]]></objective>
+            <owner>6248ba074fe01d006ba86b3a</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela do carrinho
+
+And veja os produtos selecionados
+
+When  clicar em 'checkout'
+
+Then será direcionado para tela de checkout: suas informações]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="169529664" key="KAN-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Salomão David</createdBy>
+            <createdOn>2024-07-13 23:56:51 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Checkout]]></name>
+            <objective><![CDATA[Cen&aacute;rio: Checkout<br id="isPasted"><br>Dado que o cliente esteja na tela de checkout<br><br>E adicione nome, sobrenome e cep.<br><br>Quando clicar em 'continue'<br><br>Ent&atilde;o ser&aacute; direcionado para tela de Overview]]></objective>
+            <owner>6248ba074fe01d006ba86b3a</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de checkout
+
+And adicione nome, sobrenome e cep.
+
+When clicar em 'continue'
+
+Then será direcionado para tela de Overview]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="169529750" key="KAN-T7">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Salomão David</createdBy>
+            <createdOn>2024-07-14 00:16:14 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Overview]]></name>
+            <objective><![CDATA[Cen&aacute;rio: Overview<br id="isPasted"><br>Dado que o cliente esteja na tela de Overview<br><br>E valide as informa&ccedil;&otilde;es dos pedidos<br><br>Quando clicar em 'Finish'<br><br>Ent&atilde;o ser&aacute; direcionado para tela de pedido completo.]]></objective>
+            <owner>6248ba074fe01d006ba86b3a</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de Overview
+
+And valide as informações dos pedidos
+
+When clicar em 'Finish'
+
+Then será direcionado para tela de pedido completo.]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
